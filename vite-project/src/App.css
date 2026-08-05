@@ -268,20 +268,22 @@ body{
 
 
 }
-
 .preview{
 
-    margin-bottom:30px;
+    margin-bottom:20px;
 
 }
+
 
 .preview h2{
 
     text-align:center;
 
-    margin-bottom:20px;
+    margin-bottom:16px;
 
 }
+
+
 
 .preview-card{
 
@@ -289,12 +291,16 @@ body{
 
     border-radius:30px;
 
-    padding:5px;
+    padding:0;
+
+    overflow:hidden;
 
     box-shadow:
         0 15px 35px rgba(0,0,0,.08);
 
 }
+
+
 
 .preview-top{
 
@@ -306,6 +312,8 @@ body{
 
 }
 
+
+
 .preview-bottom{
 
     width:100%;
@@ -314,5 +322,6 @@ body{
 
     object-fit:contain;
 
-    margin-top:-40px;
+    margin-top:-25px;
+
 }
